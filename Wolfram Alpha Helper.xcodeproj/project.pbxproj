@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46515D641A044E700053787A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46515D631A044E700053787A /* main.m */; };
+		46515D671A044E700053787A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46515D661A044E700053787A /* AppDelegate.m */; };
+		46515D6A1A044E700053787A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46515D691A044E700053787A /* ViewController.m */; };
+		46515D6D1A044E700053787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46515D6B1A044E700053787A /* Main.storyboard */; };
+		46515D6F1A044E700053787A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46515D6E1A044E700053787A /* Images.xcassets */; };
+		46515D721A044E700053787A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46515D701A044E700053787A /* LaunchScreen.xib */; };
+		46515D7E1A044E700053787A /* Wolfram_Alpha_HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46515D7D1A044E700053787A /* Wolfram_Alpha_HelperTests.m */; };
+		46515D891A044E8E0053787A /* BGWolframAlphaHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 46515D881A044E8E0053787A /* BGWolframAlphaHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46515D781A044E700053787A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46515D561A044E700053787A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46515D5D1A044E700053787A;
+			remoteInfo = "Wolfram Alpha Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46515D5E1A044E700053787A /* Wolfram Alpha Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wolfram Alpha Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46515D621A044E700053787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46515D631A044E700053787A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46515D651A044E700053787A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46515D661A044E700053787A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46515D681A044E700053787A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46515D691A044E700053787A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46515D6C1A044E700053787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46515D6E1A044E700053787A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46515D711A044E700053787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46515D771A044E700053787A /* Wolfram Alpha HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wolfram Alpha HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46515D7C1A044E700053787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46515D7D1A044E700053787A /* Wolfram_Alpha_HelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wolfram_Alpha_HelperTests.m; sourceTree = "<group>"; };
+		46515D871A044E8E0053787A /* BGWolframAlphaHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGWolframAlphaHelper.h; sourceTree = "<group>"; };
+		46515D881A044E8E0053787A /* BGWolframAlphaHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGWolframAlphaHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46515D5B1A044E700053787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46515D741A044E700053787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46515D551A044E700053787A = {
+			isa = PBXGroup;
+			children = (
+				46515D601A044E700053787A /* Wolfram Alpha Helper */,
+				46515D7A1A044E700053787A /* Wolfram Alpha HelperTests */,
+				46515D5F1A044E700053787A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46515D5F1A044E700053787A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46515D5E1A044E700053787A /* Wolfram Alpha Helper.app */,
+				46515D771A044E700053787A /* Wolfram Alpha HelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46515D601A044E700053787A /* Wolfram Alpha Helper */ = {
+			isa = PBXGroup;
+			children = (
+				46515D871A044E8E0053787A /* BGWolframAlphaHelper.h */,
+				46515D881A044E8E0053787A /* BGWolframAlphaHelper.m */,
+				46515D651A044E700053787A /* AppDelegate.h */,
+				46515D661A044E700053787A /* AppDelegate.m */,
+				46515D681A044E700053787A /* ViewController.h */,
+				46515D691A044E700053787A /* ViewController.m */,
+				46515D6B1A044E700053787A /* Main.storyboard */,
+				46515D6E1A044E700053787A /* Images.xcassets */,
+				46515D701A044E700053787A /* LaunchScreen.xib */,
+				46515D611A044E700053787A /* Supporting Files */,
+			);
+			path = "Wolfram Alpha Helper";
+			sourceTree = "<group>";
+		};
+		46515D611A044E700053787A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46515D621A044E700053787A /* Info.plist */,
+				46515D631A044E700053787A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46515D7A1A044E700053787A /* Wolfram Alpha HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				46515D7D1A044E700053787A /* Wolfram_Alpha_HelperTests.m */,
+				46515D7B1A044E700053787A /* Supporting Files */,
+			);
+			path = "Wolfram Alpha HelperTests";
+			sourceTree = "<group>";
+		};
+		46515D7B1A044E700053787A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46515D7C1A044E700053787A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46515D5D1A044E700053787A /* Wolfram Alpha Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46515D811A044E700053787A /* Build configuration list for PBXNativeTarget "Wolfram Alpha Helper" */;
+			buildPhases = (
+				46515D5A1A044E700053787A /* Sources */,
+				46515D5B1A044E700053787A /* Frameworks */,
+				46515D5C1A044E700053787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wolfram Alpha Helper";
+			productName = "Wolfram Alpha Helper";
+			productReference = 46515D5E1A044E700053787A /* Wolfram Alpha Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46515D761A044E700053787A /* Wolfram Alpha HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46515D841A044E700053787A /* Build configuration list for PBXNativeTarget "Wolfram Alpha HelperTests" */;
+			buildPhases = (
+				46515D731A044E700053787A /* Sources */,
+				46515D741A044E700053787A /* Frameworks */,
+				46515D751A044E700053787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46515D791A044E700053787A /* PBXTargetDependency */,
+			);
+			name = "Wolfram Alpha HelperTests";
+			productName = "Wolfram Alpha HelperTests";
+			productReference = 46515D771A044E700053787A /* Wolfram Alpha HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46515D561A044E700053787A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = BG;
+				TargetAttributes = {
+					46515D5D1A044E700053787A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					46515D761A044E700053787A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 46515D5D1A044E700053787A;
+					};
+				};
+			};
+			buildConfigurationList = 46515D591A044E700053787A /* Build configuration list for PBXProject "Wolfram Alpha Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46515D551A044E700053787A;
+			productRefGroup = 46515D5F1A044E700053787A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46515D5D1A044E700053787A /* Wolfram Alpha Helper */,
+				46515D761A044E700053787A /* Wolfram Alpha HelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46515D5C1A044E700053787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46515D6D1A044E700053787A /* Main.storyboard in Resources */,
+				46515D721A044E700053787A /* LaunchScreen.xib in Resources */,
+				46515D6F1A044E700053787A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46515D751A044E700053787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46515D5A1A044E700053787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46515D891A044E8E0053787A /* BGWolframAlphaHelper.m in Sources */,
+				46515D6A1A044E700053787A /* ViewController.m in Sources */,
+				46515D671A044E700053787A /* AppDelegate.m in Sources */,
+				46515D641A044E700053787A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46515D731A044E700053787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46515D7E1A044E700053787A /* Wolfram_Alpha_HelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46515D791A044E700053787A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46515D5D1A044E700053787A /* Wolfram Alpha Helper */;
+			targetProxy = 46515D781A044E700053787A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46515D6B1A044E700053787A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46515D6C1A044E700053787A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46515D701A044E700053787A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46515D711A044E700053787A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46515D7F1A044E700053787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46515D801A044E700053787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46515D821A044E700053787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wolfram Alpha Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46515D831A044E700053787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wolfram Alpha Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46515D851A044E700053787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wolfram Alpha HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wolfram Alpha Helper.app/Wolfram Alpha Helper";
+			};
+			name = Debug;
+		};
+		46515D861A044E700053787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wolfram Alpha HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wolfram Alpha Helper.app/Wolfram Alpha Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46515D591A044E700053787A /* Build configuration list for PBXProject "Wolfram Alpha Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46515D7F1A044E700053787A /* Debug */,
+				46515D801A044E700053787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46515D811A044E700053787A /* Build configuration list for PBXNativeTarget "Wolfram Alpha Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46515D821A044E700053787A /* Debug */,
+				46515D831A044E700053787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46515D841A044E700053787A /* Build configuration list for PBXNativeTarget "Wolfram Alpha HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46515D851A044E700053787A /* Debug */,
+				46515D861A044E700053787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46515D561A044E700053787A /* Project object */;
+}
