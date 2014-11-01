@@ -11,7 +11,7 @@
 
 @interface BGWolframAlphaHelper()
 @property (strong, nonatomic) NSXMLParser *parser;
-@property (strong, nonatomic, readwrite) NSMutableArray *images;
+@property (strong, nonatomic) NSMutableArray *images;
 @end
 
 @implementation BGWolframAlphaHelper
@@ -21,12 +21,15 @@
         self.parser = [[NSXMLParser alloc]initWithData:data];
         self.parser.delegate = self;
         [self.parser parse];
-        
     }
     return self;
 }
 
 #pragma mark - convieniece
+
+- (NSArray *)imagesFromHelper {
+    return [NSArray arrayWithArray:_images];
+}
 
 - (UIImage *)imageFromURLString:(NSString *)url {
     NSURL *imageURL = [NSURL URLWithString:url];
@@ -49,7 +52,7 @@
     } else if([element isEqualToString:@"img"]) {
         NSString *imageURLString = [attributes valueForKey:@"src"];
         UIImage *image = [self imageFromURLString:imageURLString];
-        [self.images addObject:image];
+        [_images addObject:image];
     } else if([element isEqualToString:@"source"]) {
         
     } else if([element isEqualToString:@"pod"]) {
@@ -110,7 +113,6 @@
                 completionHandler(data);
             }];
         }
-        
     }];
     //makes the task start working for us
     [task resume];

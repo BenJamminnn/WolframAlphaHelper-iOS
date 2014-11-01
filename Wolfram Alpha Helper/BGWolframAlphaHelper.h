@@ -15,7 +15,7 @@
 
 @interface BGWolframAlphaHelper : NSObject <NSXMLParserDelegate>
 
-@property (strong, nonatomic, readonly) NSMutableArray *images;
+- (NSArray *)imagesFromHelper;
 
 - (instancetype)initWithData:(NSData *)data;
 

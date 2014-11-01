@@ -33,8 +33,7 @@
     [BGWolframAlphaHelper downloadDataFromURL:query withCompletionHandler:^(NSData *data) {
         if(data) {
             BGWolframAlphaHelper *helper = [[BGWolframAlphaHelper alloc]initWithData:data];
-            [self displayImages:helper.images];
-            
+            [self displayImages:[helper imagesFromHelper]];
         } else {
             NSLog(@"data is nil");
         }
